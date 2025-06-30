@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>NCP OSTARA Training Tool</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+    }
+    header {
+      background-color: #003366;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      background-color: #002244;
+      padding: 15px;
+    }
+    nav a {
+      background-color: white;
+      color: #003366;
+      text-decoration: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+    nav a:hover {
+      background-color: #cce6ff;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>NCP OSTARA</h1>
+    <p>Interactive Training Tool</p>
+  </header>
+
+  <nav>
+    <a href="mobile-user-guide.html">Mobile User Guide</a>
+    <a href="portal-user-guide.html">Portal User Guide</a>
+  </nav>
+
+</body>
+</html>
